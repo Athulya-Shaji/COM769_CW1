@@ -14,9 +14,9 @@ lin = LinearRegression()
 
 model = lin.fit(x,y)
 
-coeff = lin.coef_
+coef = lin.coef_
 
-print("The Coeff Weight is", coeff)
+print("The Coeff Weight is", coef)
 
 intercept = lin.intercept_
 
